@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Introduce My Self</title>
+    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+      a:link {
+        color: white;
+        text-decoration: none;
+      }
+      a:visited {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+      }
+      a:active {
+        color: white;
+        text-decoration: none;
+      }
+      .All {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(2, 100px);
+      }
+      .Title {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        height: 230px;
+        background-color: lightslategrey;
+        background-image: url(https://miro.medium.com/max/3840/1*3MAehv7kODf50PARpO3_gw.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: whitesmoke;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+        text-size-adjust: auto;
+        font-family: "Noto Sans KR", sans-serif;
+        font-size: 30pt;
+      }
+      .Sidebar {
+        grid-column: 1;
+        grid-row: 2 / 5;
+        background-color: gray;
+        width: 300px;
+        height: 100vh;
+        color: white;
+        font-family: "Noto Sans KR", sans-serif;
+      }
+      .Contents {
+        grid-column: 2/3;
+        grid-row: 2/5;
+        width: 800px;
+        text-align: left;
+        margin-left: 50px;
+        padding-top: 30px;
+        font-family: "Noto Sans KR", sans-serif;
+      }
+      ul {
+        text-align: left;
+      }
+      li {
+        display: inline-block;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="All">
+      <div class="Title">
+        <h1>저를 소개합니다</h1>
+      </div>
+      <div class="Sidebar">
+        <li>
+          <ul>
+            <a href="멋사_week1(자기소개).html">자기소개</a>
+          </ul>
+          <ul>
+            <a href="etc.html">etc</a>
+          </ul>
+          <ul>
+            <a href="https://www.instagram.com/kimsmooooth/" target="_blank"
+              >인스타그램</a
+            >
+          </ul>
+          <ul>
+            <a href="https://www.behance.net/0dukcrabee50" target="_blank"
+              >Behance</a
+            >
+          </ul>
+        </li>
+      </div>
+      <div class="Contents">
+        <img src="" alt="" />
+        <h4>
+          <p>
+            안녕하세요! 영상학과에 재학중이고, 자기설계전공으로 복수전공을 하고
+            있는
+          </p>
+          <p>15학번 김승우입니다. 만나서 반갑습니다!</p>
+          <p>이제 올해 두 학기만 마치면 졸업을 앞두고 있습니다.</p>
+          <p>남은 1년 동안 새로운 걸 배우고 싶어서 멋사에 들어왔어요.</p>
+          <p>앞으로 잘 부탁드리겠습니다! :D</p>
+        </h4>
+      </div>
+    </div>
+  </body>
+</html>
